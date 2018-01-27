@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/buttonCodeAnimation"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SLIDE (CODE)"/>
+
+        <Button
+            android:id="@+id/buttonXMLAnimation"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SLIDE (XML)"/>
+
+        <Button
+            android:id="@+id/buttonSharedAnimationXML"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SHARED (CODE)"/>
+
+        <Button
+            android:id="@+id/buttonSharedAnimationCode"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="SHARED (XML)"/>
+
+    </GridLayout>
+
+</FrameLayout>

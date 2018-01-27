@@ -4,5 +4,10 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_size">300dp</dimen>
+    <dimen name="image_size_collapsed">24dp</dimen>
+    <dimen name="image_size_expanded">200dp</dimen>
+    <dimen name="click_shift">-50dp</dimen>
+    <dimen name="max_snowflake_size">50dp</dimen>
+    <dimen name="max_snowflake_speed">2dp</dimen>
 </resources>
