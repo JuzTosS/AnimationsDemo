@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="Basic animations">
+        <menu>
+            <item
+                android:id="@+id/frame_by_frame"
+                android:title="1. Frame by frame"/>
+            <item
+                android:id="@+id/property_animator"
+                android:title="2.1 Property animator"/>
+
+            <item
+                android:id="@+id/state_animator"
+                android:title="2.2 State animator"/>
+
+            <item
+                android:id="@+id/property_animator"
+                android:title="3. View animation"/>
+            <item
+                android:id="@+id/vector"
+                android:title="4. Animated vector drawable"/>
+        </menu>
+    </item>
+
+    <item android:title="Complex animations">
+        <menu>
+            <item
+                android:id="@+id/animate_layout_changes"
+                android:title="5. AnimateLayoutChanges=true"/>
+            <item
+                android:id="@+id/begin_delayed_transition"
+                android:title="6.1 BeginDelayedTransitions"/>
+            <item
+                android:id="@+id/scenes"
+                android:title="6.2 Scenes"/>
+        </menu>
+    </item>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/physic"
+                android:title="7. Physic based animations"/>
+            <item
+                android:id="@+id/canvas"
+                android:title="8. Canvas"/>
+        </menu>
+    </item>
+
+    <item android:title="Activity transitions">
+        <menu>
+            <item
+                android:id="@+id/activity_basic"
+                android:title="10.1 Basic transition"/>
+            <item
+                android:id="@+id/activity_shared"
+                android:title="10.2 Shared tranistion"/>
+            <item
+                android:id="@+id/activity_custom"
+                android:title="10.3 Custom tranistion"/>
+        </menu>
+    </item>
+
+    <item android:title="Fragment transitions">
+        <menu>
+            <item
+                android:id="@+id/fragment_basic"
+                android:title="11.1 Basic transition"/>
+
+            <item
+                android:id="@+id/fragment_shared"
+                android:title="11.2 Shared tranistion"/>
+
+            <item
+                android:id="@+id/fragment_custom"
+                android:title="11.3 Custom tranistion"/>
+        </menu>
+    </item>
+
+</menu>
